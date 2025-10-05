@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        body main{
+            display:grid;
+            grid-template-columns:4fr 1fr;
+            background-color:black;
+            color:white;
+            
+        }
+        
+        section{
+            width:65vw;
+            font-size:350%;
+            margin-bottom:20px;
+        }
+        h1{
+            font-family:Almendra;
+        }
+        b{
+            font-family:"UnifrakturMagnutia";
+        }
+        .onlyimg{
+            width:30vw;
+            margin-bottom:20px;
+            float:right;
+        }
+        footer{
+            height:150%;
+        }
+        button{
+            width:100%;
+            height:100%;
+            background-color:rgb(213, 137, 54);
+            font-size:50px;
+        }
+        @media(max-width:586px){
+            body main{
+            display:grid;
+            grid-template-columns:1fr;
+            background-color:black;
+            color:white;
+            .onlyimg{
+                width:90%;
+                
+            }
+            section{
+                font-size:50%;
+            }
+            button{
+                font-size:30px;
+            }
+            
+        }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section>
+        <center>
+        <h1>
+            Hi I am <br>
+        <B>
+            Waseef MD
+        </B>
+        future AI engineer 
+        </h1>
+        </center>
+
+    </section>
+    <aside>
+        <img src = "PXL_20250926_163619865 (1).jpg" class = "onlyimg">
+    </aside>
+    </main>
+    <footer>
+        <a href="about.html"><label><button>Get to Know the awesomeness</button></label></a>
+    </footer>
+
+</body>
+</html>
